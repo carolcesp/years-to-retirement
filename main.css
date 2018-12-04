@@ -1,0 +1,38 @@
+.box{
+  border: 2px solid black;
+  margin:40px;
+  padding: 30px;
+  width: 300px;
+  
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.user_data{
+  color:red;
+}
+.user_age{
+  margin-top: 10px;
+  width: 80px;
+}
+.btn {
+  background:pink;
+  color:black;
+  margin-top: 20px;
+  height: 40px;
+  width: 80px;
+  border-radius: 30px;
+}
+.btn:hover {
+  background-color: red;
+  color:white;
+  transition: ease 3s;
+}
+.result{
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid rgba(245, 98, 98, 0.4);
+}
