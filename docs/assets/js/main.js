@@ -1,0 +1,1 @@
+"use strict";const input=document.querySelector(".user_age"),button=document.querySelector(".btn"),elementP=document.querySelector(".result");function userAge(){const e=67-parseInt(input.value);elementP.innerHTML=`Te faltan ${e} para jubilarte`}button.addEventListener("click",userAge);

@@ -8,11 +8,11 @@ const elementP = document.querySelector('.result');
 // Al hacer click llamo a una función que:
 // 1. recoge la edad del usuario del campo
 // 2. le resta 67
-// 3. escribe en el P “te queda XX años para jubilarte”
 
 function userAge(){
   const user = parseInt(input.value);
   const age = 67 - user;
+  // 3. escribe en el P “X”
   elementP.innerHTML =(`Te faltan ${age} para jubilarte`);
 }
 
