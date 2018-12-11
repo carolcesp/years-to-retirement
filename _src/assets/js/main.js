@@ -12,11 +12,12 @@ const elementP = document.querySelector('.result');
 function userAge(){
   const user = parseInt(input.value);
   const age = 67 ;
+
   if(user===age){
-    elementP.innerHTML =(`¡Por fin! Te jubilas este año☺️`);
+    elementP.innerHTML =(`¡Por fin! Te jubilas este año ☺️`);
   }
   else if(user<age){
-    elementP.innerHTML =(`Te faltan ${age-user} para jubilarte, animo!🤪 `);
+    elementP.innerHTML =(`Te faltan ${age-user} años para jubilarte, animo!🤗 `);
   }
   else{
     elementP.innerHTML =(`Ya estás jubilado 😉`);
